@@ -1,0 +1,218 @@
+#y{
+    overflow-y: scroll;
+}
+
+
+.first{
+    display: flex;
+}
+.about{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height:190px;
+    width:989px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 23px;
+}
+img{
+    width:90px;
+    border-radius: 9px; 
+    margin:0 190px; 
+    border:3px solid red;
+}
+.about2{
+    height:190px;
+    width:989px;  
+}
+.second{
+    display: flex;
+}
+.books{
+    background-attachment: fixed;
+    background-color: rgb(5, 233, 233);
+    height:690px;
+    width:2000px;
+    background-size: 940px;
+    background-image: url("https://img.freepik.com/premium-photo/cozy-home-office-with-wall-books-comfortable-reading-nook-generative-ai_626747-1244.jpg");
+}
+
+li{
+    display: inline-block;
+    margin-right: 23px;
+    font-size: 29px;
+    color:black;
+    border-bottom:1px solid black;
+}
+h1{
+    background-color: rgb(229, 255, 0);
+    height:190px;
+    width:593px;
+    text-align: center;
+    margin:0 793px;
+    opacity: 0.91;
+}
+.third{
+    background-color: black;
+    height:700px;
+    width:1989px;
+    padding: 9px;
+    display: flex;
+    gap:72px;
+    justify-content: center;
+}
+.horror-history{
+    background-image: url("https://www.litres.ru/pub/c/cover/26534452.jpg");
+    height:689px;
+    width:463px;
+    border:3px solid red;
+    color:aliceblue;
+}
+.Psihology{
+    background-image:url("https://s.f.kz/prod/80/79052_1000.jpg");
+    height:689px;
+    width:463px;
+    border:3px solid red;
+}
+.Enciclopedia{
+    background-image: url("https://rosman.ru/upload/resize_cache/iblock/54b/743_743_1/wyqd1hmojq1mkb6gdf749u4e8f9fysq4.jpg");
+    height:689px;
+    width:463px;
+    border:3px solid red;
+}
+.describe{
+    font-size: 23px;
+    color:yellow;
+    background-color: brown;
+}
+.custom{
+    display: flex;
+}
+.silver-eyes{
+    background-color: black;
+    height:109px;
+    width:669px;
+}
+.deil-larnegi-book{
+    background-color: black;
+    height:109px;
+    width:669px;
+}
+.about-animals-andsea{
+    background-color: black;
+    height:109px;
+    width:632px;
+}
+.silver-eyes,.deil-larnegi-book,.about-animals-andsea{
+    padding:6px;
+}
+.buttons-buy{
+    display: flex;
+}
+.fst{
+    background-color: black;
+    height:109px;
+    width:634px;
+}
+.snd{
+    background-color: black;
+    height:109px;
+    width:634px;
+}
+.frd{
+    background-color: black;
+    height:109px;
+    width:734px;
+}
+.numver{
+    display: block;
+    position: absolute;
+    height:245px;
+    top:80px;
+    margin:0 20px;
+}
+.numver{
+    display: none;
+}
+.about2 ul li a:hover .numver{
+    display: block;
+    position: absolute;
+    height:245px;
+    top:80px;
+    background-color: red;
+}
+button{
+    margin:0 190px;
+    background-color: blue;
+    height:45px;
+    width:345px;
+    font-size: 36px;
+    border-radius: 56px 34px 6px;
+    color:white;
+    border:2px solid rgb(219, 243, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#second-information{
+    background-color: black;
+    height:700px;
+    width:1989px;
+    padding: 9px;
+    display: flex;
+    gap:72px;
+    justify-content: center;
+}
+.It-StivenKing{
+    background-image: url("https://book24.kz/upload/iblock/6b3/6b3b32efc08ddcdb390e2c3a8fc6bfbd.jpg");
+    height:689px;
+    width:463px;
+    border:3px solid red;
+}
+.Harry-Poter-and-Philosopher-stone{
+    background-image: url("https://upload.wikimedia.org/wikipedia/ru/thumb/b/b4/Harry_Potter_and_the_Philosopher%27s_Stone_%E2%80%94_movie.jpg/250px-Harry_Potter_and_the_Philosopher%27s_Stone_%E2%80%94_movie.jpg");
+    height:689px;
+    width:463px;
+    border:3px solid red;
+    background-size: 616px;
+}
+.Magazine{
+    background-image: url("https://lh3.googleusercontent.com/proxy/DUZIeigRKORoH7mkQ49tYI4MokollQPtJxJavzU_HSCaTIiR4xvquiuq2nBg0AdHxoLuyc1hXa0ffOqEV_A2_F4glMjshgvA");
+    height:689px;
+    width:463px;
+    border:3px solid red;
+    background-size: 616px;
+}
+#buttons-buy2{
+    display: flex;
+}
+.thord{
+    background-color: black;
+    height:109px;
+    width:634px;
+}
+.th{
+    background-color: black;
+    height:109px;
+    width:634px;
+}
+.text{
+    display: flex;
+}
+.information67{
+    background-color: black;
+    height:109px;
+    width:669px;
+}
+.sixth{
+    background-color: black;
+    height:109px;
+    width:737px;
+}
+.information90{
+    background-color: black;
+    height:109px;
+    width:737px;
+}
+.information78{
+    background-color: black;
+    height:109px;
+    width:599px;
+}
