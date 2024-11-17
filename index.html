@@ -60,20 +60,44 @@
             </div>
             <div class="gloves">
                 <img class="thing5"src="https://avatars.mds.yandex.net/i?id=06c2a8d202660e5dffa21c20707a62fd_l-6883249-images-thumbs&n=13">
-                <p style="color:white;text-align: center;font-size: 15px;">перчатки в<br> пейнтболе Перчатки в пейнтболе играют немаловажную роль<br> - попадание шарика по <br>костяшкам пальцев весьма чувствительно.</p>
+                <p style="color:white;text-align: center;font-size: 15px;"> Перчатки в пейнтболе играют <br>немаловажную роль<br> - попадание шарика по <br>костяшкам пальцев весьма чувствительно.</p>
             </div>
             <div class="medical">
                 <img class="thing6"src="https://avatars.mds.yandex.net/i?id=f623ce577e3ff260cc87aede81b69d4d831be961-3509819-images-thumbs&n=13">
-                <p style="color:white;text-align: center;font-size: 15px;"></p>
+                <p style="color:white;text-align: center;font-size: 15px;">Аптечка предназначена <br> тех случаях,когда игроку нанесли травму в игре<br>
+                или неважно чувствует себя</p>
+            </div>
+        </div>
+    </div>
+        <div class="about-us">
+            <div class="game">
+                О Нас
+                <h2 style="color:white">Суть игры ПейнтБол, в работе с командой,как одолеть противников другой команды,сделать себя уверенным и не сдаваться</h2>
             </div>
         </div>
     </main>
+    <footer>
+        <div class="number-contact">
+            <div class="number-address-email">
+                <a href="https://web.whatsapp.com/" style="color:white;text-decoration:none">Тел:+7 (777) 298 96 01<br></a>
+                <a href="https://e.mail.ru/inbox/"style="color:white;text-decoration:none">email:kassymovz@bk.ru<br></a>
+                <a href="https://2gis.kz/almaty/geo/9430098914574399"style="text-decoration:none;color:white">адрес:ул.Тимирязева 42,Парк Атакент,г.Алматы,05000</a>
+            </div>
+            <div class="game2">
+                <img class="app"width="100px"src="https://bukhta-radosti.ru/wp-content/uploads/2018/02/pejntbol.jpg">
+            </div>
+        </div>
+    </footer>
     <style>
         ::-webkit-scrollbar{
             width:15px;
         }
         ::-webkit-scrollbar-thumb{
             background-color: black;
+            border-radius: 78px;
+        }
+        ::-webkit-scrollbar-track{
+            background-color: blue;
         }
         .scrollbar{
             overflow: auto;
@@ -126,7 +150,9 @@
         #Accessories{
             background-image: url("https://cdn.culture.ru/images/f4903f7f-3a3a-5d34-95b9-bb7ae079d7fa");
             width:1800px;
-            height:996px;
+            height:876px;
+            background-size:123%;
+            background-attachment: fixed;
         }
         #Accessoriesst{
             display: flex;
@@ -221,7 +247,57 @@
             opacity:0.89;
             height:389px;
         }
+        .about-us{
+            display: flex;
+            background-color: rgb(22, 61, 0);
+            height:468px;
+            width:1800px;
+        }
+        .game{
+            text-align: center;
+            font-size:44px;
+            font-weight:900;
+            color:white;
+        }
+        h2{
+            text-align: left;
+            font-size:54px;
+            animation: about;
+            animation-duration: 12s;
+        }
+        @keyframes about{
+            34%{
+               visibility: hidden;
+            }
+            67%{
+                color:white;
+            }
+        }
+        .number-contact{
+            display: flex;
+            background-color: black;
+            width:1796px;
+            height:290px;
+            padding:2px;
+        }
+        .number-address-email{
+            color:white;
+            font-size: 34px;
+        }
+        .game2{
+            background-size:300px;
+        }
+        .app{
+            border-radius: 3px;
+            width:900px;
+            margin:0 50px;
+            height:282px;
+            border:none;
+        }
     </style>
+    <script>
+        
+    </script>
     </div>
 </body>
 </html>
