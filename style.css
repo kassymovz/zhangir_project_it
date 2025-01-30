@@ -1,3 +1,54 @@
-th{
-    width:190px;
+.calcukator{
+    background-color: blue;
+    height:345px;
+    width:279px;
+    border-radius: 11px;
+    margin: auto;
+    border:4px inset grey;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:6px;
+}
+button{
+    background-color: aqua;
+    height:35px;
+    width:34px;
+    border-radius: 8px;
+    border:2px solid green;
+    font-size:22px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:6px;
+}
+input{
+    width:234px;
+}
+.downdigits{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:6px;
+}
+#digits{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:6px;
+}
+#math-operations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:6px;
 }
