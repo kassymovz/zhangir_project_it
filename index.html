@@ -3,52 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Калькулятор счет</title>
+    <title>PedalPurse - Discover Your Perfect Ride</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <link rel="website icon" type="png"href="https://static.tildacdn.com/tild3631-3831-4535-a532-343139636535/calc.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <div class="calcukator"><br>
-        <header>
-            <input type="text" placeholder="Напишите число"id="somedigit">
-        </header><br>
-        <main>
-            <button onclick="f1('1')">1</button>
-            <button onclick="f2('2')">2</button>
-            <button onclick="f3('3')">3</button>
-            <button onclick="f4('4')">4</button>
-            <button onclick="f5('5')">5</button>
-        </main><br>
-        <footer>
-            <button onclick="f6('6')">6</button>
-            <button onclick="f7('7')">7</button>
-            <button onclick="f8('8')">8</button>
-            <button onclick="f9('9')">9</button>
-            <button onclick="f10('10')">10</button>
-        </footer><br>
-        <div class="downdigits">
-            <button onclick="f11('11')">11</button>
-            <button onclick="f12('12')">12</button>
-            <button onclick="f13('13')">13</button>
-            <button onclick="f14('14')">14</button>
-            <button onclick="f15('15')">15</button>
-        </div><br>
-        <div id="digits">
-            <button onclick="f16('16')">16</button>
-            <button onclick="f17('17')">17</button>
-            <button onclick="f20('18')">18</button>
-            <button onclick="f19('19')">19</button>
-            <button onclick="f20('20')">20</button>
-        </div><br>
-        <div id="math-operations">
-            <button onclick="subtract('-')">-</button>
-            <button onclick="add('+')">+</button>
-            <button onclick="multiply('*')">*</button>
-            <button onclick="devide('/')">/</button>
-            <button onclick="clearFun()">C</button>
-            <button onclick="equall()">=</button>
+    <header>
+        <div class="logo">
+            <!-- Placeholder for logo image -->
+            <img src="logo.png" alt="PedalPurse Logo">
         </div>
-    </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <a href="#velobike"><li>Bikes</li></a>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-user"></i></a>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Discover Your Perfect Ride</h1>
+            <a href="#" class="cta-button">Shop Now</a>
+        </section>
+
+        <section class="categories">
+            <h2>All</h2>
+            <ul>
+                <li>Mountains bikes</li>
+                <li>Road bikes</li>
+                <li>Electric bikes</li>
+                <li>Kids bikes</li>
+            </ul>
+        </section>
+
+        <section class="products">
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image"id="velobike">
+                        <!-- Placeholder for product image -->
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaRNrsTPxUKnbh8f2dPwNtbRNBCw4bjqakAw&s" alt="Trailblazer Pro Mountain Bike">
+                    </div>
+                    <h3>Trailblazer Pro Mountain Bike</h3>
+                    <p class="price">65 000 KZT</p>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <!-- Placeholder for product image -->
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTphPXWaJqyLEh99_U3Yj6zmvyT9FNXNllpZQ&s" alt="Online Commuter E-Bike">
+                    </div>
+                    <h3>Online Commuter E-Bike</h3>
+                    <p class="price">35 000 KZT</p>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <!-- Placeholder for product image -->
+                        <img src="velopro-mmax.jpg" alt="Velopro M-Max Bike">
+                    </div>
+                    <h3>Velopro M-Max Bike</h3>
+                    <p class="price">25 000 KZT</p>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <!-- Placeholder for product image -->
+                        <img src="baldergan.jpg" alt="Baldergan Bike">
+                    </div>
+                    <h3>Baldergan Bike</h3>
+                    <p class="price">26 789 KZT</p>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <!-- Placeholder for product image -->
+                        <img src="axis-pro.jpg" alt="Axis Pro Bike">
+                    </div>
+                    <h3>Axis Pro Bike</h3>
+                    <p class="price">55 123 KZT</p>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <!-- Placeholder for product image -->
+                        <img src="mirida-little.jpg" alt="Mirida little Bike">
+                    </div>
+                    <h3>Mirida little Bike</h3>
+                    <p class="price">65 678 KZT</p>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <!-- Placeholder for product image -->
+                        <img src="battle-bike.jpg" alt="Battle Bike">
+                    </div>
+                    <h3>Battle Bike</h3>
+                    <p class="price">69 000 KZT</p>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <!-- Placeholder for product image -->
+                        <img src="track-big.jpg" alt="Track Big Bike">
+                    </div>
+                    <h3>Track Big Bike</h3>
+                    <p class="price">78 999 KZT</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="pagination">
+            <a href="#">previous</a>
+            <a href="#">1</a>
+            <a href="#" class="active">2</a>
+            <a href="#">Next</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="contact-info">
+            <h4>Телефоны и Адрес</h4>
+            <p>Тел: +7 777 298 96 01</p>
+            <p>Адрес: ул.Госпитальная 32, дом 5, 3 этаж, кв 34</p>
+            <p>email: kassymovz@bk.ru</p>
+        </div>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
 </body>
 </html>
