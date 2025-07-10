@@ -1,1 +1,0 @@
-# zhangir_project_it
